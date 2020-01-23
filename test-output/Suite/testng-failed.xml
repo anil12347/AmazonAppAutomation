@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="PlatformName" value="Android"/>
+  <parameter name="AndroidVersion" value="9.0"/>
+  <parameter name="AutoamtionName" value="Appium"/>
+  <parameter name="DeviceName" value="Android"/>
+  <test name="AmazonTesting(failed)" preserve-order="true">
+    <parameter name="PlatformName" value="Android"/>
+    <parameter name="AndroidVersion" value="9.0"/>
+    <parameter name="AutoamtionName" value="Appium"/>
+    <parameter name="DeviceName" value="Android"/>
+    <classes>
+      <class name="com.mobile.testing.appium.AmazonTestCase">
+        <methods>
+          <include name="amazonTesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mobile.testing.appium.AmazonTestCase -->
+    </classes>
+  </test> <!-- AmazonTesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->

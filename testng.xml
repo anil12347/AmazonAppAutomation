@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+  <test name = "AmazonTesting">
+   <parameter name="AutoamtionName" value="Appium"/>
+  <parameter name="AndroidVersion" value="9.0"/>
+  <parameter name="PlatformName" value="Android"/>
+  <parameter name="DeviceName" value="Android"/>
+    <classes>
+       
+          <class name = "com.mobile.testing.appium.AmazonTestCase">
+          </class>
+    </classes>   
+ </test>
+
+  
+</suite> 
